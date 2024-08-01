@@ -1,0 +1,123 @@
+/* Reset básico para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes y colores básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #d32f2f; /* Rojo oscuro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #b71c1c; /* Rojo más oscuro */
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo del menú */
+/* Estilo del menú */
+.menu {
+    display: flex;
+    flex-direction: column; /* Cambiado de 'row' a 'column' para apilar verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre el título y los productos */
+}
+
+.menu-title {
+    color: #d32f2f; /* Rojo oscuro */
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0; /* Elimina margen para evitar espacios innecesarios */
+}
+
+/* Estilo del contenedor de los productos */
+.menu-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Espacio entre los productos */
+}
+
+.menu-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.menu-img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* Estilo del botón de WhatsApp */
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 40px auto;
+    width: 220px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #d32f2f; /* Rojo oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
